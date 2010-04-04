@@ -1,7 +1,7 @@
 colorscheme vividchalk
 
 " Font
-set guifont=Inconsolata:h15.00
+set guifont=Bitstream\ Vera\ Sans\ Mono:h15.00
 
 " No audible bell
 set vb
