@@ -1,5 +1,4 @@
-colorscheme vividchalk
-
+colorscheme digerati
 " Font
 set guifont=Bitstream\ Vera\ Sans\ Mono:h15.00
 
