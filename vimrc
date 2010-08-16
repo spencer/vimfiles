@@ -42,4 +42,6 @@ nmap <silent> <leader>n :silent :nohlsearch<CR>
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
+nmap <silent> <leader>d :NERDTreeToggle<CR>
+
 let g:rsenseHome = "/usr/lib/rsense-0.2"
