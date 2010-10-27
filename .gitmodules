@@ -46,3 +46,6 @@
 [submodule "vim/snippets/scrooloose"]
 	path = vim/snippets/scrooloose
 	url = git://github.com/scrooloose/snipmate-snippets.git
+[submodule "vim/bundle/vim-rspec"]
+  path = vim/bundle/vim-rspec
+  url = git://github.com/taq/vim-rspec.git
