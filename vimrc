@@ -1,6 +1,7 @@
 filetype off
 
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
@@ -45,3 +46,7 @@ nmap <silent> <leader>s :set nolist!<CR>
 nmap <silent> <leader>d :NERDTreeToggle<CR>
 
 let g:rsenseHome = "/usr/lib/rsense-0.2"
+
+if has("autocmd")
+  filetype plugin indent on
+endif
