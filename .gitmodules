@@ -40,13 +40,9 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = git://github.com/wincent/Command-T.git
-[submodule "vim/bundle/snipmate"]
-	path = vim/bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
 [submodule "vim/snippets/scrooloose"]
 	path = vim/snippets/scrooloose
-	url = git://github.com/scrooloose/snipmate-snippets.git
-
+	url = git://github.com/scrooloose/snipmate-snippets.git 
 [submodule "vim/bundle/vim-rspec"]
 	path = vim/bundle/vim-rspec
 	url = git://github.com/taq/vim-rspec.git
