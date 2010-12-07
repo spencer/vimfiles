@@ -24,6 +24,10 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set shortmess=atI
 set visualbell
 
+set grepprg=ack
+set grepformat=%f:%l:%m
+
+
 " Intuitive backspacing in insert mode
 set backspace=indent,eol,start
 
@@ -50,3 +54,14 @@ let g:rsenseHome = "/usr/lib/rsense-0.2"
 if has("autocmd")
   filetype plugin indent on
 endif
+
+" Understand :W as :w
+command! W :w
+
+" Show unwanted whitespace
+set listchars=tab:>-,trail:.,extends:>
+set list!
+
+" Status line
+set statusline=%f\ %(%m%r%h\ %)%([%Y]%)%=%-20{getcwd()}\ [b%n]\ %l/%L\ ~\ %p%%\ \  
+colorscheme rubyblue

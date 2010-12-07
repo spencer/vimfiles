@@ -1,4 +1,4 @@
-colorscheme digerati
+colorscheme rubyblue
 " Font
 set guifont=Bitstream\ Vera\ Sans\ Mono:h15.00
 
