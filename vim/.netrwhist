@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/spencer/Work/CoachInABox/coach_in_a_box'
 let g:netrw_dirhist_2='/Users/spencer/Work/MercuryApp/mercuryapp'
 let g:netrw_dirhist_3='/Users/spencer/Desktop/test'
 let g:netrw_dirhist_4='/Users/spencer/Work/MercuryApp/mercuryapp'
 let g:netrw_dirhist_5='/Users/spencer/src'
 let g:netrw_dirhist_6='/Users/spencer/Work/MercuryApp/mercuryapp'
+let g:netrw_dirhist_7='/Users/spencer/Work/Eden/_Website/edenwebsite2010'
+let g:netrw_dirhist_8='/Users/spencer/Work/MercuryApp/mercuryapp'
