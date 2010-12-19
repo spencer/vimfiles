@@ -64,4 +64,4 @@ set list!
 
 " Status line
 set statusline=%f\ %(%m%r%h\ %)%([%Y]%)%=%-20{getcwd()}\ [b%n]\ %l/%L\ ~\ %p%%\ \  
-colorscheme rubyblue
+colorscheme molokai

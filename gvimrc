@@ -1,4 +1,4 @@
-colorscheme rubyblue
+colorscheme molokai
 " Font
 set guifont=Bitstream\ Vera\ Sans\ Mono:h15.00
 
