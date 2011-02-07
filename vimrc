@@ -27,6 +27,10 @@ set visualbell
 set grepprg=ack
 set grepformat=%f:%l:%m
 
+set undodir=~/.vim/undodir
+set undofile
+set undolevels=1000 "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 " Intuitive backspacing in insert mode
 set backspace=indent,eol,start
