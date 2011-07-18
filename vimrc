@@ -35,6 +35,9 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 " Intuitive backspacing in insert mode
 set backspace=indent,eol,start
 
+" Set OSX Clipboad
+set clipboard=unnamed
+
 " Highlight search terms...
 set hlsearch
 set incsearch " ...dynamically as they are typed.
@@ -68,4 +71,6 @@ set list!
 
 " Status line
 set statusline=%f\ %(%m%r%h\ %)%([%Y]%)%=%-20{getcwd()}\ [b%n]\ %l/%L\ ~\ %p%%\ \  
+"colorscheme jellybeans
+set background=dark
 colorscheme jellybeans
