@@ -64,7 +64,7 @@
   ignore = dirty
 [submodule "vim/snippets"]
 	path = vim/snippets
-	url = https://github.com/atikaonrails/snipmate-snippets.git
+	url = https://github.com/akitaonrails/snipmate-snippets.git
   ignore = dirty
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
