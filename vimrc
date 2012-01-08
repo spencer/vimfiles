@@ -24,6 +24,8 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set shortmess=atI
 set visualbell
 
+set nrformats=octal,hex,alpha
+
 set grepprg=ack
 set grepformat=%f:%l:%m
 
@@ -38,6 +40,7 @@ set backspace=indent,eol,start
 " Set OSX Clipboad
 set clipboard=unnamed
 
+"
 " Highlight search terms...
 set hlsearch
 set incsearch " ...dynamically as they are typed.
@@ -70,7 +73,8 @@ set listchars=tab:>-,trail:.,extends:>
 set list!
 
 " Status line
-set statusline=%f\ %(%m%r%h\ %)%([%Y]%)%=%-20{getcwd()}\ [b%n]\ %l/%L\ ~\ %p%%\ \  
+set laststatus=2
+set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
 "colorscheme jellybeans
 set background=dark
 colorscheme jellybeans

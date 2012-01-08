@@ -1,6 +1,6 @@
 colorscheme jellybeans
 " Font
-set guifont=Bitstream\ Vera\ Sans\ Mono:h15.00
+set guifont=Droid\ Sans\ Mono:h15.00
 
 " No audible bell
 set vb
