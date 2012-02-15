@@ -75,6 +75,5 @@ set list!
 " Status line
 set laststatus=2
 set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
-"colorscheme jellybeans
 set background=dark
-colorscheme jellybeans
+colorscheme solarized
