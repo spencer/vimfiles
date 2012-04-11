@@ -1,7 +1,7 @@
 filetype off
 
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 syntax on
 filetype plugin indent on
@@ -67,13 +67,33 @@ endif
 
 " Understand :W as :w
 command! W :w
+" Understand :Q as :q
+command! Q :q
 
 " Show unwanted whitespace
 set listchars=tab:>-,trail:.,extends:>
 set list!
 
-" Status line
+"folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use" Status line
+
+" window
+nmap <leader>sw<left>  :topleft  vnew<CR>
+nmap <leader>sw<right> :botright vnew<CR>
+nmap <leader>sw<up>    :topleft  new<CR>
+nmap <leader>sw<down>  :botright new<CR>
+" buffer
+nmap <leader>s<left>   :leftabove  vnew<CR>
+nmap <leader>s<right>  :rightbelow vnew<CR>
+nmap <leader>s<up>     :leftabove  new<CR>
+nmap <leader>s<down>   :rightbelow new<CR>
+
+let g:Powerline_symbols = 'fancy'
 set laststatus=2
-set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
+" set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
+
 set background=dark
 colorscheme solarized

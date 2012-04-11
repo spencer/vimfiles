@@ -1,6 +1,6 @@
-colorscheme jellybeans
+colorscheme solarized
 " Font
-set guifont=Droid\ Sans\ Mono:h15.00
+set guifont=Menlo\ Regular\ for\ Powerline:h15
 
 " No audible bell
 set vb
