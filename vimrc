@@ -95,5 +95,5 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2
 " set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
 
-set background=dark
+set background=light
 colorscheme solarized
