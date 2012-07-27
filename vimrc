@@ -40,7 +40,10 @@ set backspace=indent,eol,start
 " Set OSX Clipboad
 set clipboard=unnamed
 
-"
+" Set cursor line and column
+set cursorline
+set cursorcolumn
+
 " Highlight search terms...
 set hlsearch
 set incsearch " ...dynamically as they are typed.
@@ -91,9 +94,23 @@ nmap <leader>s<right>  :rightbelow vnew<CR>
 nmap <leader>s<up>     :leftabove  new<CR>
 nmap <leader>s<down>   :rightbelow new<CR>
 
-let g:Powerline_symbols = 'fancy'
+nnoremap <leader><leader> <c-^>let g:Powerline_symbols = 'fancy'
 set laststatus=2
 " set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
 
-set background=light
+if exists('$TMUX')
+  autocmd FileType ruby map <buffer> <Leader>f :RunRubyFocusedTest<CR>
+  autocmd FileType ruby map <buffer> <Leader>t :RunAllRubyTests<CR>
+  autocmd FileType cucumber map <Leader>f :RunFocusedCuke<CR>
+  autocmd FileType cucumber map <Leader>t :RunAllCukes<CR>
+endif
+
+" Set Vimux to split horizontal
+let g:VimuxOrientation = "h"
+
+"Set cmd-t triggers to not conflict with vimux
+nnoremap <silent> <Leader>tt :CommandT<CR>
+nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
+
+set background=dark
 colorscheme solarized
