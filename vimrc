@@ -27,6 +27,7 @@ set visualbell
 set nrformats=octal,hex,alpha
 
 set grepprg=ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
 set grepformat=%f:%l:%m
 
 set undodir=~/.vim/undodir
