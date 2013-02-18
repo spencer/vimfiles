@@ -113,5 +113,5 @@ let g:VimuxOrientation = "h"
 nnoremap <silent> <Leader>tt :CommandT<CR>
 nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
-set background=dark
-colorscheme solarized
+colorscheme lucius
+LuciusLightLowContrast
