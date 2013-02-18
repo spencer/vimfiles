@@ -114,4 +114,4 @@ nnoremap <silent> <Leader>tt :CommandT<CR>
 nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
 set background=dark
-colorscheme solarized
+colorscheme tomorrow-night-bright
