@@ -58,10 +58,6 @@
 	path = vim/bundle/vim-supertab
 	url = https://github.com/ervandew/supertab.git
   ignore = dirty
-[submodule "vim/snippets"]
-	path = vim/snippets
-	url = https://github.com/akitaonrails/snipmate-snippets.git
-  ignore = dirty
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
@@ -82,33 +78,48 @@
 [submodule "vim/bundle/zencoding-vim"]
 	path = vim/bundle/zencoding-vim
 	url = git://github.com/mattn/zencoding-vim.git
+  ignore = dirty
 [submodule "vim/bundle/vim-coffee-script"]
 	path = vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+  ignore = dirty
 [submodule "vim/bundle/vim-turbux"]
 	path = vim/bundle/vim-turbux
 	url = git://github.com/jgdavey/vim-turbux.git
+  ignore = dirty
 [submodule "vim/bundle/vimux"]
 	path = vim/bundle/vimux
 	url = git://github.com/benmills/vimux.git
+  ignore = dirty
 [submodule "vim/bundle/vimux-ruby-test"]
 	path = vim/bundle/vimux-ruby-test
 	url = git://github.com/pgr0ss/vimux-ruby-test.git
+  ignore = dirty
 [submodule "vim/bundle/vimux-cucumber"]
 	path = vim/bundle/vimux-cucumber
 	url = git://github.com/cloud8421/vimux-cucumber.git
+  ignore = dirty
 [submodule "vim/bundle/vim-tomorrow-theme"]
 	path = vim/bundle/vim-tomorrow-theme
 	url = git://github.com/chriskempson/vim-tomorrow-theme.git
+  ignore = dirty
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim.git
+  ignore = dirty
 [submodule "vim/bundle/vim-lucius"]
 	path = vim/bundle/vim-lucius
 	url = git://github.com/jonathanfilip/vim-lucius.git
+  ignore = dirty
 [submodule "vim/bundle/handlebars"]
 	path = vim/bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
-[submodule "vim/bundle/vim-rub-refactoring"]
-	path = vim/bundle/vim-rub-refactoring
+  ignore = dirty
+[submodule "vim/bundle/tabular"]
+	path = vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+  ignore = dirty
+[submodule "vim/bundle/vim-ruby-refactoring"]
+	path = vim/bundle/vim-ruby-refactoring
 	url = git://github.com/ecomba/vim-ruby-refactoring.git
+  ignore = dirty
