@@ -106,7 +106,6 @@ set laststatus=2
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
-map <leader>a :call RunTests('')<cr>
 map <leader><space> :call ReRunTestCommand()<cr>
 
 map <leader>c :w\|:!script/features<cr>
@@ -190,12 +189,34 @@ function! s:align()
   endif
 endfunction
 
-"function FormatRubyHash()
-  "Tabularize /^[^:]*\zs:/r1c0l0
-  "Tabularize /^[^=>]*\zs=>/l1
-"endfunction
+function FormatRubyHash()
+  Tabularize /^[^:]*\zs:/r1c0l0
+  Tabularize /^[^=>]*\zs=>/l1
+endfunction
 
-"map <Leader>= :call FormatRubyHash()<cr>
+function FormatEquals()
+  Tabularize /[=:]/
+endfunction
+
+function FormatCommas()
+  Tabularize /,\zs/l1l0
+endfunction
+
+function FormatCss()
+  Tabularize /: \zs/l1l0
+endfunction
+
+function FormatRubySymbols()
+  Tabularize /:\zs/l1l10
+endfunction
+
+map <leader>ah :call FormatRubyHash()<cr>
+map <leader>a= :call FormatEquals()<cr>
+map <leader>a, :call FormatCommas()<cr>
+map <leader>ac :call FormatCss()<cr>
+map <leader>a: :call FormatRubySymbols()<cr>
+
+map <F1> :noh<Cr>
 
 function! OpenTestAlternate()
   let new_file = AlternateForCurrentFile()
@@ -290,16 +311,7 @@ function! InlineVariable()
     :let @a = l:tmp_a
     :let @b = l:tmp_b
 endfunction
-
 nnoremap <leader>iv :call InlineVariable()<cr>
-"
-" Tabular: Align stuff
-"   :Tabularize /=/   - Align by the given character
-map ,a= :Tabularize /[=:]/<Cr>
-map ,a, :Tabularize commas<Cr>
-map ,a: :Tabularize css<Cr>
-map ,A: :%g/.*: .*/Tabularize css<Cr>
-map <F1> :noh<Cr>
 
 
 if exists('$TMUX')
