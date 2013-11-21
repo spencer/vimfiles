@@ -328,7 +328,7 @@ let g:VimuxOrientation = "h"
 nnoremap <silent> <Leader>tt :CommandT<CR>
 nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
-set guifont=Menlo\ Regular\ for\ Powerline:h15
+set guifont=Menlo-Powerline:h15
 
 colorscheme lucius
 LuciusLightLowContrast
