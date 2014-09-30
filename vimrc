@@ -17,7 +17,7 @@ set ruler
 set hidden
 set history=1000
 set wildmode=list:longest
-set ignorecase 
+set ignorecase
 set smartcase
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -328,7 +328,8 @@ let g:VimuxOrientation = "h"
 nnoremap <silent> <Leader>tt :CommandT<CR>
 nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
-set guifont=Menlo-Powerline:h15
+set guifont=Menlo:h14
 
-colorscheme lucius
-LuciusLightLowContrast
+
+colorscheme Lucius
+LuciusWhiteLowContrast
