@@ -103,3 +103,12 @@
 [submodule "vim/bundle/vim-elixir"]
 	path = vim/bundle/vim-elixir
 	url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "vim/bundle/vim-mix"]
+	path = vim/bundle/vim-mix
+	url = git://github.com/mattonrails/vim-mix.git
+[submodule "vim/bundle/vim-phoenix"]
+	path = vim/bundle/vim-phoenix
+	url = git@github.com:avdgaag/vim-phoenix.git
+[submodule "vim/bundle/vim-projectionist"]
+	path = vim/bundle/vim-projectionist
+	url = git@github.com:tpope/vim-projectionist.git
