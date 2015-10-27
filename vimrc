@@ -330,6 +330,5 @@ nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
 set guifont=Menlo:h14
 
-
-colorscheme Lucius
-LuciusWhiteLowContrast
+colo seoul256
+"colorscheme Tomorrow-Night-Bright
