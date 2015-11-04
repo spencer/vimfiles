@@ -330,5 +330,8 @@ nnoremap <silent> <Leader>bb :CommandTBuffer<CR>
 
 set guifont=Menlo:h14
 
-colo seoul256
-"colorscheme Tomorrow-Night-Bright
+"let g:solarized_termcolors=256
+"set background=light
+colo Lucius
+LuciusWhiteLowContrast
+"colo Tomorrow-Night-Bright
