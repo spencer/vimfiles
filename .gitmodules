@@ -115,3 +115,6 @@
 [submodule "vim/bundle/seoul256.vim"]
 	path = vim/bundle/seoul256.vim
 	url = git@github.com:junegunn/seoul256.vim.git
+[submodule "vim/bundle/nerdtree-git-plugin"]
+	path = vim/bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
