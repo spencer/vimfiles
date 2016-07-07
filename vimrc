@@ -49,6 +49,11 @@ set cursorcolumn
 set hlsearch
 set incsearch " ...dynamically as they are typed.
 
+
+" Set splits to open right, and below
+set splitright
+set splitbelow
+
 nnoremap ' `
 nnoremap ` '
 nnoremap <C-e> 3<C-e>
@@ -333,5 +338,5 @@ set guifont=Menlo:h14
 "let g:solarized_termcolors=256
 "set background=light
 colo Lucius
-LuciusWhiteLowContrast
+LuciusBlackLowContrast
 "colo Tomorrow-Night-Bright
